@@ -1,4 +1,4 @@
-?php require_once 'data.php'; ?>
+<?php require_once 'data.php'; ?>
 
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/navbar.php'; ?>
