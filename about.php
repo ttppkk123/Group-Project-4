@@ -13,7 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Mico</title>
+  <title>მენტალური ჯანმრთელობის ცენტრი</title>
 
 
   <!-- bootstrap core css -->
@@ -38,7 +38,7 @@
 
 </head>
 
-<body class="sub_page">
+<body>
 
   <div class="hero_area">
     <!-- header section strats -->
@@ -49,20 +49,17 @@
             <a href="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span>
-                Call : <?php echo $site['phone']; ?>
+                ტელეფონი : <?php echo $site['phone']; ?>
               </span>
             </a>
             <a href="">
               <i class="fa fa-envelope" aria-hidden="true"></i>
               <span>
-                Email : <?php echo $site['email']; ?>
+                ელ-ფოსტა : <?php echo $site['email']; ?>
               </span>
             </a>
             <a href="">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                Location
-              </span>
             </a>
           </div>
         </div>
@@ -88,7 +85,7 @@
                       <?php echo $item['title']; ?>
               
                       <?php if (!empty($item['active'])): ?>
-                        <span class="sr-only">(current)</span>
+                        <span class="sr-only">(მიმდინარე)</span>
                       <?php endif; ?>
       
                       </a>
@@ -100,13 +97,13 @@
                 <a href="">
                   <i class="fa fa-user" aria-hidden="true"></i>
                   <span>
-                    Login
+                    შესვლა
                   </span>
                 </a>
                 <a href="">
                   <i class="fa fa-user" aria-hidden="true"></i>
                   <span>
-                    Sign Up
+                    რეგისტრაცია
                   </span>
                 </a>
                 <form class="form-inline">
@@ -156,7 +153,7 @@
   <!-- end about section -->
 
 
- <!-- info section -->
+  <!-- info section -->
   <section class="info_section ">
     <div class="container">
       <div class="info_top">
@@ -167,9 +164,9 @@
         </div>
         <div class="info_form">
           <form action="">
-            <input type="email" placeholder="Your email">
+            <input type="email" placeholder="თქვენი ელ-ფოსტა">
             <button>
-              Subscribe
+              გამოწერა
             </button>
           </form>
         </div>
@@ -178,7 +175,7 @@
         <div class="row info_main_row">
           <div class="col-md-6 col-lg-3">
             <h5>
-              Address
+              მისამართი
             </h5>
             <div class="info_contact">
               <a href="">
@@ -196,7 +193,7 @@
             </div>
             
             <!-- SOCIAL BOX -->
-            <div class="social_box">
+            <div class="სოციალური ქსელები">
               <a href="<?php echo $site['social']['facebook']; ?>">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
@@ -215,7 +212,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="info_links">
               <h5>
-                Useful link
+                სასარგებლო ლინკები
               </h5>
               <div class="info_links_menu">
                 <?php foreach ($links as $link): ?>
@@ -230,7 +227,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="info_post">
               <h5>
-                LATEST POSTS
+                უახლესი პოსტები
               </h5>
               <?php foreach ($latest_posts as $post): ?>
                 <div class="post_box">
@@ -247,7 +244,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="info_post">
               <h5>
-                News
+                სიახლეები
               </h5>
               <?php foreach ($news as $post): ?>
                 <div class="post_box">
@@ -265,11 +262,12 @@
   </section>
   <!-- end info_section -->
 
+
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
+        &copy; <span id="displayYear"></span> ყველა უფლება დაცულია
         <a href="https://html.design/">Free Html Templates</a>
       </p>
     </div>
