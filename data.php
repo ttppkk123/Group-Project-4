@@ -1,158 +1,127 @@
 <?php
 
 $nav = [
-    ["title" => "Home", "url" => "index.php", "active" => true],
-    ["title" => "About", "url" => "about.php", "active" => false],
-    ["title" => "Treatment", "url" => "treatment.php", "active" => false],
-    ["title" => "Doctors", "url" => "doctor.php", "active" => false],
-    ["title" => "Testimonial", "url" => "testimonial.php", "active" => false],
-    ["title" => "Contact Us", "url" => "contact.php", "active" => false]
+    ["title" => "მთავარი", "url" => "index.php", "active" => true],
+    ["title" => "ჩვენ შესახებ", "url" => "about.php", "active" => false],
+    ["title" => "სერვისები", "url" => "treatment.php", "active" => false],
+    ["title" => "ფსიქოლოგები", "url" => "doctor.php", "active" => false],
+    ["title" => "შეფასებები", "url" => "testimonial.php", "active" => false],
+    ["title" => "კონტაქტი", "url" => "contact.php", "active" => false]
 ];
 
 $slider = [
     [
-        "title" => "Mico Hospital",
-        "highlight" => "Hospital",
-        "text" => "when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to",
+        "title" => "მენტალური ჯანმრთელობის",
+        "highlight" => "ცენტრი",
+        "text" => "აღმოაჩინე შინაგანი მშვიდობა და ემოციური ბალანსი. ჩვენი გუნდი მზად არის დაგეხმაროთ ნებისმიერი სირთულის გადალახვაში.",
         "img" => "images/slider-img.jpg",
-        "button" => "Contact Us",
+        "button" => "დაგვიკავშირდით",
         "link" => "contact.php"
     ],
     [
-        "title" => "Best Care",
-        "highlight" => "Service",
-        "text" => "High quality medical service with modern equipment and professional staff.",
+        "title" => "აღმოაჩინე",
+        "highlight" => "Self-care",
+        "text" => "თვითზრუნვა არ არის ფუფუნება, ის აუცილებლობაა. ისწავლე საკუთარ ემოციებთან მოსმენა და მიეცი თავს უფლება, იყო პირველ ადგილზე.",
         "img" => "images/slider-img.jpg",
-        "button" => "Contact Us",
-        "link" => "contact.php"
+        "button" => "გაიგე მეტი",
+        "link" => "about.php"
     ],
     [
-        "title" => "Trusted Doctors",
-        "highlight" => "Clinic",
-        "text" => "We provide trusted healthcare solutions for all patients.",
+        "title" => "სანდო და გამოცდილი",
+        "highlight" => "გუნდი",
+        "text" => "ჩვენი სპეციალისტები დაგეხმარებიან სტრესის, შფოთვისა და კრიზისული პერიოდების ეფექტურად მართვაში.",
         "img" => "images/slider-img.jpg",
-        "button" => "Contact Us",
+        "button" => "ჩაეწერეთ ვიზიტზე",
         "link" => "contact.php"
     ]
 ];
 
+
 $treatments = [
     [
+        "id" => 1,
         "img" => "images/t1.png",
-        "title" => "Nephrologist Care",
-        "desc" => "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything",
+        "title" => "ინდივიდუალური თერაპია",
+        "desc" => "პირადი კონსულტაციები მოზრდილებისთვის, რომლებიც მიმართულია სტრესის, შფოთვისა და დეპრესიის დაძლევისკენ.",
         "link" => "treatment.php?id=1"
     ],
     [
+        "id" => 2,
         "img" => "images/t2.png",
-        "title" => "Eye Care",
-        "desc" => "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything",
+        "title" => "წყვილთა კონსულტაცია",
+        "desc" => "ურთიერთობების გაუმჯობესება, კრიზისული პერიოდების მართვა და ეფექტური კომუნიკაციის აღდგენა პარტნიორებს შორის.",
         "link" => "treatment.php?id=2"
     ],
     [
+        "id" => 3,
         "img" => "images/t3.png",
-        "title" => "Pediatrician Clinic",
-        "desc" => "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything",
+        "title" => "ბავშვთა ფსიქოლოგია",
+        "desc" => "მოზარდებისა და ბავშვების ემოციური, ქცევითი და შემეცნებითი განვითარების პროფესიონალური მხარდაჭერა.",
         "link" => "treatment.php?id=3"
     ],
     [
+        "id" => 4,
         "img" => "images/t4.png",
-        "title" => "Parental Care",
-        "desc" => "alteration in some form, by injected humour, or randomised words which don't look even slightly e sure there isn't anything",
+        "title" => "ჯგუფური თერაპია",
+        "desc" => "გამოცდილების გაზიარება და ფსიქოლოგიური მხარდაჭერა მსგავსი გამოწვევების მქონე ადამიანების ჯგუფში.",
         "link" => "treatment.php?id=4"
     ]
 ];
 
 $doctors = [
     [
-        "name" => "Hennry",
-        "spec" => "MBBS",
+        "name" => "ნინო კაპანაძე",
+        "spec" => "კლინიკური ფსიქოლოგი (CBT)",
         "img" => "images/team1.jpg",
-        "facebook" => "#",
-        "twitter" => "#",
-        "linkedin" => "#",
-        "instagram" => "#"
+        "facebook" => "#", "twitter" => "#", "linkedin" => "#", "instagram" => "#"
     ],
     [
-        "name" => "Jenni",
-        "spec" => "MBBS",
+        "name" => "გიორგი ბერიძე",
+        "spec" => "ფსიქოთერაპევტი",
         "img" => "images/team2.jpg",
-        "facebook" => "#",
-        "twitter" => "#",
-        "linkedin" => "#",
-        "instagram" => "#"
+        "facebook" => "#", "twitter" => "#", "linkedin" => "#", "instagram" => "#"
     ],
     [
-        "name" => "Morco",
-        "spec" => "MBBS",
+        "name" => "ანა მეგრელიძე",
+        "spec" => "ბავშვთა და მოზარდთა ექსპერტი",
         "img" => "images/team3.jpg",
-        "facebook" => "#",
-        "twitter" => "#",
-        "linkedin" => "#",
-        "instagram" => "#"
+        "facebook" => "#", "twitter" => "#", "linkedin" => "#", "instagram" => "#"
     ]
 ];
 
 $testimonials = [
     [
-        "name" => "Morijorch",
-        "subtitle" => "Default model text",
-        "text" => "editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various"
-    ],
-    [
-        "name" => "Rochak",
-        "subtitle" => "Default model text",
-        "text" => "Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
-    ],
-    [
-        "name" => "Brad Johns",
-        "subtitle" => "Default model text",
-        "text" => "Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Variouseditors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
+        "name" => "მარიამ ბერიძე",
+        "subtitle" => "პაციენტი",
+        "text" => "ამ ცენტრში მიღებულმა თერაპიამ სრულიად შეცვალა ჩემი დამოკიდებულება სტრესის მიმართ. განსაკუთრებული მადლობა ჩემს ფსიქოლოგს პროფესიონალიზმისთვის."
     ]
 ];
 
 $site = [
     "logo" => "images/logo.png",
-    "address" => "New Taipei, Taiwan",
-    "phone" => "+01 1234567890",
-    "email" => "demo@gmail.com",
-
+    "address" => "თბილისი, ი. ჭავჭავაძის გამზირი 12",
+    "phone" => "+995 555 12 34 56",
+    "email" => "info@mentalhealth.ge",
     "social" => [
-        "facebook" => "#",
-        "twitter" => "#",
-        "linkedin" => "#",
-        "instagram" => "#"
+        "facebook" => "#", "twitter" => "#", "linkedin" => "#", "instagram" => "#"
     ]
 ];
 
 $links = [
-    ["title" => "Home", "url" => "index.php"],
-    ["title" => "About", "url" => "about.php"],
-    ["title" => "Treatment", "url" => "treatment.php"],
-    ["title" => "Doctors", "url" => "doctor.php"],
-    ["title" => "Testimonial", "url" => "testimonial.php"],
-    ["title" => "Contact us", "url" => "contact.php"]
+    ["title" => "მთავარი", "url" => "index.php"],
+    ["title" => "ჩვენ შესახებ", "url" => "about.php"],
+    ["title" => "სერვისები", "url" => "treatment.php"],
+    ["title" => "ფსიქოლოგები", "url" => "doctor.php"],
+    ["title" => "შეფასებები", "url" => "testimonial.php"],
+    ["title" => "კონტაქტი", "url" => "contact.php"]
 ];
 
-$posts = [
-    [
-        "img" => "images/post1.jpg",
-        "text" => "Normal distribution"
-    ],
-    [
-        "img" => "images/post2.jpg",
-        "text" => "Normal distribution"
-    ]
+$latest_posts = [
+    ["img" => "images/post1.jpg", "text" => "როგორ ვმართოთ შფოთვა ყოველდღიურ ცხოვრებაში ეფექტურად"],
+    ["img" => "images/post2.jpg", "text" => "ემოციური ინტელექტის როლი ჯანსაღი ურთიერთობების ჩამოყალიბებაში"]
 ];
 
 $news = [
-    [
-        "img" => "images/post3.jpg",
-        "text" => "Health news"
-    ],
-    [
-        "img" => "images/post4.png",
-        "text" => "Hospital update"
-    ]
+    ["img" => "images/post3.jpg", "text" => "უფასო ონლაინ ვებინარი მენტალურ ჯანმრთელობაზე ამ უქმეებზე"],
+    ["img" => "images/post4.png", "text" => "ცენტრის განახლებული სამუშაო საათები და მიღების დღეები"]
 ];
-
