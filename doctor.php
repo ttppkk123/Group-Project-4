@@ -13,7 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Mico</title>
+  <title>მენტალური ჯანმრთელობის ცენტრი</title>
 
 
   <!-- bootstrap core css -->
@@ -38,7 +38,7 @@
 
 </head>
 
-<body class="sub_page">
+<body>
 
   <div class="hero_area">
     <!-- header section strats -->
@@ -49,20 +49,17 @@
             <a href="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span>
-                Call : <?php echo $site['phone']; ?>
+                ტელეფონი : <?php echo $site['phone']; ?>
               </span>
             </a>
             <a href="">
               <i class="fa fa-envelope" aria-hidden="true"></i>
               <span>
-                Email : <?php echo $site['email']; ?>
+                ელ-ფოსტა : <?php echo $site['email']; ?>
               </span>
             </a>
             <a href="">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                Location
-              </span>
             </a>
           </div>
         </div>
@@ -88,7 +85,7 @@
                       <?php echo $item['title']; ?>
               
                       <?php if (!empty($item['active'])): ?>
-                        <span class="sr-only">(current)</span>
+                        <span class="sr-only">(მიმდინარე)</span>
                       <?php endif; ?>
       
                       </a>
@@ -100,13 +97,13 @@
                 <a href="">
                   <i class="fa fa-user" aria-hidden="true"></i>
                   <span>
-                    Login
+                    შესვლა
                   </span>
                 </a>
                 <a href="">
                   <i class="fa fa-user" aria-hidden="true"></i>
                   <span>
-                    Sign Up
+                    რეგისტრაცია
                   </span>
                 </a>
                 <form class="form-inline">
