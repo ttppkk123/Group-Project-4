@@ -123,7 +123,7 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section class="about_section">
     <div class="container  ">
       <div class="row">
         <div class="col-md-6 ">
@@ -135,14 +135,13 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About <span>Hospital</span>
+                ცენტრის <span>შესახებ</span>
               </h2>
             </div>
             <p>
-              has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors
-            </p>
+               ჩვენი მენტალური ჯანმრთელობის ცენტრი ორიენტირებულია თითოეული ადამიანის კეთილდღეობაზე. ჩვენ გთავაზობთ უსაფრთხო, კონფიდენციალურ და პროფესიონალურ გარემოს, სადაც კვალიფიციური სპეციალისტები დაგეხმარებიან ემოციური ბალანსის აღდგენასა და პიროვნულ ზრდაში.
             <a href="">
-              Read More
+              ვრცლად
             </a>
           </div>
         </div>

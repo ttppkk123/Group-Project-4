@@ -125,18 +125,18 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Get In Touch
+          მოგვწერეთ
         </h2>
       </div>
       <div class="row">
         <div class="col-md-7">
           <div class="form_container">
            <form action="contact_success.php" method="POST">
-              <input type="text" name="name" placeholder="Name" required>
-              <input type="email" name="email" placeholder="Email" required>
-              <input type="text" name="phone" placeholder="Phone">
-              <textarea name="message" placeholder="Message"></textarea>
-              <button type="submit">Send</button>
+              <input type="text" name="name" placeholder="სახელი" required>
+              <input type="email" name="email" placeholder="ელ-ფოსტა" required>
+              <input type="text" name="phone" placeholder="ტელეფონი">
+              <textarea name="message" placeholder="შეტყობინება"></textarea>
+              <button type="submit">გაგზავნა</button>
             </form>
           </div>
         </div>

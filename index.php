@@ -120,6 +120,7 @@
     <!-- end header section -->
     
     <!-- slider section -->
+
     <section class="slider_section ">
       <div class="dot_design">
         <img src="images/dots.png" alt="">
@@ -179,7 +180,9 @@
       </div>
 
     </section>
+
     <!-- end slider section -->
+
   </div>
 
 
@@ -252,7 +255,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- end book section -->
 
@@ -327,6 +329,7 @@
 
   <!-- end treatment section -->
 
+  
   <!-- team section -->
 
   <section class="team_section layout_padding">
