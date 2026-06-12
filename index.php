@@ -13,7 +13,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Mico</title>
+  <title>მენტალური ჯანმრთელობის ცენტრი</title>
 
 
   <!-- bootstrap core css -->
@@ -49,20 +49,17 @@
             <a href="">
               <i class="fa fa-phone" aria-hidden="true"></i>
               <span>
-                Call : <?php echo $site['phone']; ?>
+                ტელეფონი : <?php echo $site['phone']; ?>
               </span>
             </a>
             <a href="">
               <i class="fa fa-envelope" aria-hidden="true"></i>
               <span>
-                Email : <?php echo $site['email']; ?>
+                ელ-ფოსტა : <?php echo $site['email']; ?>
               </span>
             </a>
             <a href="">
               <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                Location
-              </span>
             </a>
           </div>
         </div>
@@ -88,7 +85,7 @@
                       <?php echo $item['title']; ?>
               
                       <?php if (!empty($item['active'])): ?>
-                        <span class="sr-only">(current)</span>
+                        <span class="sr-only">(მიმდინარე)</span>
                       <?php endif; ?>
       
                       </a>
@@ -100,13 +97,13 @@
                 <a href="">
                   <i class="fa fa-user" aria-hidden="true"></i>
                   <span>
-                    Login
+                    შესვლა
                   </span>
                 </a>
                 <a href="">
                   <i class="fa fa-user" aria-hidden="true"></i>
                   <span>
-                    Sign Up
+                    რეგისტრაცია
                   </span>
                 </a>
                 <form class="form-inline">
@@ -172,11 +169,11 @@
         <div class="carousel_btn-box">
           <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
             <img src="images/prev.png" alt="">
-            <span class="sr-only">Previous</span>
+            <span class="sr-only">წინა</span>
           </a>
           <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
             <img src="images/next.png" alt="">
-            <span class="sr-only">Next</span>
+            <span class="sr-only">შემდეგი</span>
           </a>
         </div>
       </div>
@@ -194,15 +191,15 @@
         <div class="col">
           <form action="submit.php" method="POST"> 
             <h4>
-              BOOK <span>APPOINTMENT</span>
+              ჩაეწერეთ <span>კონსულტაციაზე</span>
             </h4>
             <div class="form-row ">
               <div class="form-group col-lg-4">
-                <label for="inputPatientName">Patient Name </label>
+                <label for="inputPatientName">თქვენი სახელი და გვარი </label>
                 <input type="text" class="form-control" id="inputPatientName" placeholder="" name="patient_name"> 
               </div>
               <div class="form-group col-lg-4">
-                <label for="inputDoctorName">Doctor's Name</label>
+                <label for="inputDoctorName">აირჩიეთ სპეციალისტი</label>
                 <select name="doctor_name" class="form-control wide" id="inputDoctorName">
 
                   <!-- added -->
@@ -215,7 +212,7 @@
               </div>
 
               <div class="form-group col-lg-4">
-                <label for="inputDepartmentName">Department's Name</label>
+                <label for="inputDepartmentName">მიმართულება</label>
                 <select name="department_name" class="form-control wide" id="inputDepartmentName"> 
 
                    <!-- added -->
@@ -230,15 +227,15 @@
             
             <div class="form-row ">
               <div class="form-group col-lg-4">
-                <label for="inputPhone">Phone Number</label>
+                <label for="inputPhone">ტელეფონის ნომერი</label>
                 <input type="number" class="form-control" id="inputPhone" placeholder="XXXXXXXXXX" name="phone">
               </div>
               <div class="form-group col-lg-4">
-                <label for="inputSymptoms">Symptoms</label>
+                <label for="inputSymptoms">ჩივილები (მოკლე აღწერა)</label>
                 <input type="text" class="form-control" id="inputSymptoms" placeholder="" name="symptoms">
               </div>
               <div class="form-group col-lg-4">
-                <label for="inputDate">Choose Date </label>
+                <label for="inputDate">აირჩიეთ თარიღი </label>
                 <div class="input-group date" id="inputDate" data-date-format="mm-dd-yyyy">
                   <input type="text" class="form-control" name="appointment_date" readonly>
                   <span class="input-group-addon date_icon">
@@ -248,7 +245,7 @@
               </div>
             </div>
             <div class="btn-box">
-              <button type="submit" class="btn ">Submit Now</button>
+              <button type="submit" class="btn ">ჯავშნის გაგზავნა</button>
             </div>
           </form>
         </div>
@@ -274,14 +271,13 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About <span>Hospital</span>
+                ცენტრის <span>შესახებ</span>
               </h2>
             </div>
             <p>
-              has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors
-            </p>
+               ჩვენი მენტალური ჯანმრთელობის ცენტრი ორიენტირებულია თითოეული ადამიანის კეთილდღეობაზე. ჩვენ გთავაზობთ უსაფრთხო, კონფიდენციალურ და პროფესიონალურ გარემოს, სადაც კვალიფიციური სპეციალისტები დაგეხმარებიან ემოციური ბალანსის აღდგენასა და პიროვნულ ზრდაში.
             <a href="">
-              Read More
+              ვრცლად
             </a>
           </div>
         </div>
@@ -301,7 +297,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Hospital <span>Treatment</span>
+          ჩვენი <span>სერვისები</span>
         </h2>
       </div>
       <div class="row">
@@ -319,7 +315,7 @@
                   <?php echo $treat['desc']; ?>
                 </p>
                 <a href="treatment.php?id=<?php echo $treat['id']; ?>">
-                  Read More
+                  ვრცლად
                 </a>
               </div>
             </div>
@@ -337,7 +333,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Our <span>Doctors</span>
+          ჩვენი <span>სპეციალისტები</span>
         </h2>
       </div>
       <div class="carousel-wrap ">
@@ -378,7 +374,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          <span>Testimonial</span>
+          <span>პაციენტების შეფასებები</span>
         </h2>
       </div>
     </div>
@@ -409,11 +405,11 @@
         <div class="carousel_btn-box">
           <a class="carousel-control-prev" href="#customCarousel2" role="button" data-slide="prev">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
-            <span class="sr-only">Previous</span>
+            <span class="sr-only">წინა</span>
           </a>
           <a class="carousel-control-next" href="#customCarousel2" role="button" data-slide="next">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
-            <span class="sr-only">Next</span>
+            <span class="sr-only">შემდეგი</span>
           </a>
         </div>
       </div>
@@ -426,18 +422,18 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Get In Touch
+          მოგვწერეთ
         </h2>
       </div>
       <div class="row">
         <div class="col-md-7">
           <div class="form_container">
            <form action="contact_success.php" method="POST">
-              <input type="text" name="name" placeholder="Name" required>
-              <input type="email" name="email" placeholder="Email" required>
-              <input type="text" name="phone" placeholder="Phone">
-              <textarea name="message" placeholder="Message"></textarea>
-              <button type="submit">Send</button>
+              <input type="text" name="name" placeholder="სახელი" required>
+              <input type="email" name="email" placeholder="ელ-ფოსტა" required>
+              <input type="text" name="phone" placeholder="ტელეფონი">
+              <textarea name="message" placeholder="შეტყობინება"></textarea>
+              <button type="submit">გაგზავნა</button>
             </form>
           </div>
         </div>
@@ -462,9 +458,9 @@
         </div>
         <div class="info_form">
           <form action="">
-            <input type="email" placeholder="Your email">
+            <input type="email" placeholder="თქვენი ელ-ფოსტა">
             <button>
-              Subscribe
+              გამოწერა
             </button>
           </form>
         </div>
@@ -473,7 +469,7 @@
         <div class="row info_main_row">
           <div class="col-md-6 col-lg-3">
             <h5>
-              Address
+              მისამართი
             </h5>
             <div class="info_contact">
               <a href="">
@@ -491,7 +487,7 @@
             </div>
             
             <!-- SOCIAL BOX -->
-            <div class="social_box">
+            <div class="სოციალური ქსელები">
               <a href="<?php echo $site['social']['facebook']; ?>">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
@@ -510,7 +506,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="info_links">
               <h5>
-                Useful link
+                სასარგებლო ლინკები
               </h5>
               <div class="info_links_menu">
                 <?php foreach ($links as $link): ?>
@@ -525,7 +521,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="info_post">
               <h5>
-                LATEST POSTS
+                უახლესი პოსტები
               </h5>
               <?php foreach ($latest_posts as $post): ?>
                 <div class="post_box">
@@ -542,7 +538,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="info_post">
               <h5>
-                News
+                სიახლეები
               </h5>
               <?php foreach ($news as $post): ?>
                 <div class="post_box">
@@ -565,7 +561,7 @@
   <footer class="footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
+        &copy; <span id="displayYear"></span> ყველა უფლება დაცულია
         <a href="https://html.design/">Free Html Templates</a>
       </p>
     </div>
