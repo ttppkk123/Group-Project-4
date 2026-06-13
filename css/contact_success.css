@@ -11,7 +11,7 @@
 }
 
 .success_container h1 {
-  color: #00c6a9;
+  color: #8fc9ff;
   margin-bottom: 20px;
 }
 
@@ -33,5 +33,5 @@
 }
 
 .success_container a:hover {
-  background-color: #00c6a9;
+  background-color: #8fc9ff;
 }
