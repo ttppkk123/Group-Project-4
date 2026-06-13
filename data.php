@@ -14,7 +14,7 @@ $slider = [
         "title" => "მენტალური ჯანმრთელობის",
         "highlight" => "ცენტრი",
         "text" => "აღმოაჩინე შინაგანი მშვიდობა და ემოციური ბალანსი. ჩვენი გუნდი მზად არის დაგეხმაროთ ნებისმიერი სირთულის გადალახვაში.",
-        "img" => "images/slider-img.jpg",
+        "img" => "images/slider-img-1.png",
         "button" => "დაგვიკავშირდით",
         "link" => "contact.php"
     ],
@@ -22,7 +22,7 @@ $slider = [
         "title" => "აღმოაჩინე",
         "highlight" => "Self-care",
         "text" => "თვითზრუნვა არ არის ფუფუნება, ის აუცილებლობაა. ისწავლე საკუთარ ემოციებთან მოსმენა და მიეცი თავს უფლება, იყო პირველ ადგილზე.",
-        "img" => "images/slider-img.jpg",
+        "img" => "images/slider-img-2.jpg",
         "button" => "გაიგე მეტი",
         "link" => "about.php"
     ],
@@ -30,7 +30,7 @@ $slider = [
         "title" => "სანდო და გამოცდილი",
         "highlight" => "გუნდი",
         "text" => "ჩვენი სპეციალისტები დაგეხმარებიან სტრესის, შფოთვისა და კრიზისული პერიოდების ეფექტურად მართვაში.",
-        "img" => "images/slider-img.jpg",
+        "img" => "images/slider-img-3.png",
         "button" => "ჩაეწერეთ ვიზიტზე",
         "link" => "contact.php"
     ]
@@ -72,19 +72,31 @@ $doctors = [
     [
         "name" => "ნინო კაპანაძე",
         "spec" => "კლინიკური ფსიქოლოგი (CBT)",
-        "img" => "images/team1.jpg",
+        "img" => "images/team2.jpg",
         "facebook" => "#", "twitter" => "#", "linkedin" => "#", "instagram" => "#"
     ],
     [
         "name" => "გიორგი ბერიძე",
         "spec" => "ფსიქოთერაპევტი",
-        "img" => "images/team2.jpg",
+        "img" => "images/team3.jpg",
+        "facebook" => "#", "twitter" => "#", "linkedin" => "#", "instagram" => "#"
+    ],
+    [
+        "name" => "ანა ეფრემიძე",
+        "spec" => "ფსიქოთერაპევტი",
+        "img" => "images/team4.jpg",
+        "facebook" => "#", "twitter" => "#", "linkedin" => "#", "instagram" => "#"
+    ],
+    [
+        "name" => "დავით ნაცვლიშვილი",
+        "spec" => "ბავშვთა და მოზარდთა ექსპერტი",
+        "img" => "images/team5.jpg",
         "facebook" => "#", "twitter" => "#", "linkedin" => "#", "instagram" => "#"
     ],
     [
         "name" => "ანა მეგრელიძე",
         "spec" => "ბავშვთა და მოზარდთა ექსპერტი",
-        "img" => "images/team3.jpg",
+        "img" => "images/team1.jpg",
         "facebook" => "#", "twitter" => "#", "linkedin" => "#", "instagram" => "#"
     ]
 ];

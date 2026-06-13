@@ -43,7 +43,7 @@
             </div>
             
             <!-- SOCIAL BOX -->
-            <div class="სოციალური ქსელები">
+            <div class="social media">
               <a href="<?php echo $site['social']['facebook']; ?>">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
@@ -118,7 +118,6 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> ყველა უფლება დაცულია
-        <a href="https://html.design/">Free Html Templates</a>
       </p>
     </div>
   </footer>
