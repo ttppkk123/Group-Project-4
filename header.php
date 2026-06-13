@@ -62,12 +62,7 @@
                     <li class="nav-item <?php echo !empty($item['active']) ? 'active' : ''; ?>">
                     <a class="nav-link" href="<?php echo $item['url']; ?>">
                       <?php echo $item['title']; ?>
-              
-                      <?php if (!empty($item['active'])): ?>
-                        <span class="sr-only">(მიმდინარე)</span>
-                      <?php endif; ?>
-      
-                      </a>
+                    </a>
                     </li>
                   <?php endforeach; ?>
                 </ul>
