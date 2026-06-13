@@ -11,7 +11,7 @@
 }
 
 .confirmation_container h1 {
-  color: #00c6a9;
+  color: #8fc9ff;
   margin-bottom: 20px;
 }
 
@@ -24,12 +24,12 @@
   display: inline-block;
   margin-top: 20px;
   padding: 10px 25px;
-  background-color: #00c6a9;
+  background-color: #8fc9ff;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
 }
 
 .confirmation_container a:hover {
-  background-color: #009e87;
+  background-color: #71b8fb;
 }
