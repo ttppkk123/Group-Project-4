@@ -1,7 +1,4 @@
-
-
-  <div class="hero_area">
-    
+ 
     <!-- slider section -->
 
     <section class="slider_section ">
@@ -15,11 +12,6 @@
                 <!-- TEXT -->
                 <div class="col-md-6">
                   <div class="detail-box">
-                    <div class="play_btn">
-                      <button>
-                        <i class="fa fa-play" aria-hidden="true"></i>
-                      </button>
-                    </div>
                     <h1>
                       <?php echo $slide['title']; ?> <br>
                       <span>
@@ -62,6 +54,4 @@
     </section>
 
     <!-- end slider section -->
-
-  </div>
 

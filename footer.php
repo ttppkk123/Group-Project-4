@@ -1,8 +1,5 @@
 <?php include 'data.php'; ?>
-<!DOCTYPE html>
-<html> 
-    
-<body>
+
 <!-- info section -->
   <section class="info_section ">
     <div class="container">
@@ -43,7 +40,7 @@
             </div>
             
             <!-- SOCIAL BOX -->
-            <div class="social media">
+            <div class="social_box">
               <a href="<?php echo $site['social']['facebook']; ?>">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
@@ -99,7 +96,7 @@
               <?php foreach ($news as $post): ?>
                 <div class="post_box">
                   <div class="img-box">
-                    <img src="<?php echo $post['img']; ?>"" alt="">
+                    <img src="<?php echo $post['img']; ?>" alt="">
                   </div>
                   <p><?php echo $post['text']; ?></p>
                 </div>

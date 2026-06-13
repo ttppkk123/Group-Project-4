@@ -119,7 +119,3 @@
     </header>
     <!-- end header section -->
  </div>
-
-</body>
-
-</html>
