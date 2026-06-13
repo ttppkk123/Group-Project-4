@@ -262,8 +262,10 @@ a:focus {
 }
 
 /*end header section*/
+
 /* slider section */
 .slider_section {
+  position: relative;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -279,18 +281,10 @@ a:focus {
   padding-bottom: 75px;
 }
 
-.slider_section .dot_design {
-  position: absolute;
-  width: 450px;
-  right: 0;
-  bottom: 0;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
-  z-index: 1;
-}
-
-.slider_section .dot_design img {
-  width: 100%;
+.slider_section .img-box img {
+    width: 100%;
+    height: 500px;       
+    object-fit: contain; 
 }
 
 .slider_section .row {
@@ -304,65 +298,6 @@ a:focus {
   position: unset;
 }
 
-.slider_section .play_btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 100%;
-  width: 65px;
-  height: 65px;
-  position: relative;
-  z-index: 3;
-  margin-top: 15px;
-  margin-bottom: 45px;
-}
-
-.slider_section .play_btn button {
-  background-color: #8fc9ff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 100%;
-  width: 100%;
-  height: 100%;
-  border: none;
-  position: relative;
-  z-index: 5;
-  color: #ffffff;
-  outline: none;
-}
-
-.slider_section .play_btn::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background-color: #8fc9ff;
-  opacity: 1;
-  border-radius: 100%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.slider_section .play_btn::before {
-  z-index: 2;
-  -webkit-animation: before-animation 1500ms infinite;
-          animation: before-animation 1500ms infinite;
-}
 
 @-webkit-keyframes before-animation {
   0% {
@@ -429,7 +364,7 @@ a:focus {
 .slider_section .carousel_btn-box {
   position: absolute;
   bottom: 0;
-  right: 10%;
+  right: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -438,8 +373,8 @@ a:focus {
           justify-content: space-between;
   width: 110px;
   height: 50px;
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%);
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
   z-index: 3;
 }
 
