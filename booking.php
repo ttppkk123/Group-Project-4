@@ -10,17 +10,17 @@
             </h4>
             <div class="form-row ">
               <div class="form-group col-lg-4">
-                <label for="inputPatientName">თქვენი სახელი და გვარი </label>
-                <input type="text" class="form-control" id="inputPatientName" placeholder="" name="patient_name"> 
+                <label for="inputClientName">თქვენი სახელი და გვარი </label>
+                <input type="text" class="form-control" id="inputClientName" placeholder="" name="client_name"> 
               </div>
               <div class="form-group col-lg-4">
-                <label for="inputDoctorName">აირჩიეთ სპეციალისტი</label>
-                <select name="doctor_name" class="form-control wide" id="inputDoctorName">
+                <label for="inputSpecialistName">აირჩიეთ სპეციალისტი</label>
+                <select name="specialist_name" class="form-control wide" id="inputSpecialistName">
 
                   <!-- added -->
-                  <?php foreach ($doctors as $doc): ?> 
-                    <option value="<?php echo $doc['name']; ?>">
-                      <?php echo $doc['name']; ?>
+                  <?php foreach ($specialists as $spec): ?> 
+                    <option value="<?php echo $spec['name']; ?>">
+                      <?php echo $spec['name']; ?>
                     </option>
                   <?php endforeach; ?>
                 </select>
@@ -31,9 +31,9 @@
                 <select name="department_name" class="form-control wide" id="inputDepartmentName"> 
 
                    <!-- added -->
-                   <?php foreach ($treatments as $treat): ?>
-                    <option value="<?php echo $treat['title']; ?>">
-                      <?php echo $treat['title']; ?>
+                   <?php foreach ($services as $service): ?>
+                    <option value="<?php echo $service['title']; ?>">
+                      <?php echo $service['title']; ?>
                     </option>
                   <?php endforeach; ?>
                 </select>

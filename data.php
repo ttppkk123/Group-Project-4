@@ -3,8 +3,8 @@
 $nav = [
     ["title" => "მთავარი", "url" => "index.php", "active" => true],
     ["title" => "ჩვენ შესახებ", "url" => "about.php", "active" => false],
-    ["title" => "სერვისები", "url" => "treatment.php", "active" => false],
-    ["title" => "ფსიქოლოგები", "url" => "doctor.php", "active" => false],
+    ["title" => "სერვისები", "url" => "services.php", "active" => false],
+    ["title" => "ფსიქოლოგები", "url" => "specialists.php", "active" => false],
     ["title" => "შეფასებები", "url" => "testimonial.php", "active" => false],
     ["title" => "კონტაქტი", "url" => "contact.php", "active" => false]
 ];
@@ -37,38 +37,38 @@ $slider = [
 ];
 
 
-$treatments = [
+$services = [
     [
         "id" => 1,
         "img" => "images/t1.jpg",
         "title" => "ინდივიდუალური თერაპია",
         "desc" => "პირადი კონსულტაციები მოზრდილებისთვის, რომლებიც მიმართულია სტრესის, შფოთვისა და დეპრესიის დაძლევისკენ.",
-        "link" => "treatment.php?id=1"
+        "link" => "services.php?id=1"
     ],
     [
         "id" => 2,
         "img" => "images/t2.jpg",
         "title" => "წყვილთა კონსულტაცია",
         "desc" => "ურთიერთობების გაუმჯობესება, კრიზისული პერიოდების მართვა და ეფექტური კომუნიკაციის აღდგენა პარტნიორებს შორის.",
-        "link" => "treatment.php?id=2"
+        "link" => "services.php?id=2"
     ],
     [
         "id" => 3,
         "img" => "images/t3.jpg",
         "title" => "ბავშვთა ფსიქოლოგია",
         "desc" => "მოზარდებისა და ბავშვების ემოციური, ქცევითი და შემეცნებითი განვითარების პროფესიონალური მხარდაჭერა.",
-        "link" => "treatment.php?id=3"
+        "link" => "services.php?id=3"
     ],
     [
         "id" => 4,
         "img" => "images/t4.jpg",
         "title" => "ჯგუფური თერაპია",
         "desc" => "გამოცდილების გაზიარება და ფსიქოლოგიური მხარდაჭერა მსგავსი გამოწვევების მქონე ადამიანების ჯგუფში.",
-        "link" => "treatment.php?id=4"
+        "link" => "services.php?id=4"
     ]
 ];
 
-$doctors = [
+$specialists = [
     [
         "name" => "ნინო კაპანაძე",
         "spec" => "კლინიკური ფსიქოლოგი (CBT)",
@@ -132,8 +132,8 @@ $site = [
 $links = [
     ["title" => "მთავარი", "url" => "index.php"],
     ["title" => "ჩვენ შესახებ", "url" => "about.php"],
-    ["title" => "სერვისები", "url" => "treatment.php"],
-    ["title" => "ფსიქოლოგები", "url" => "doctor.php"],
+    ["title" => "სერვისები", "url" => "services.php"],
+    ["title" => "ფსიქოლოგები", "url" => "specialists.php"],
     ["title" => "შეფასებები", "url" => "testimonial.php"],
     ["title" => "კონტაქტი", "url" => "contact.php"]
 ];

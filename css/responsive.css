@@ -1,5 +1,5 @@
 @media (max-width: 1300px) {
-  .treatment_section .side_img {
+  .services_section .side_img {
     opacity: 0.2;
   }
 }
@@ -136,7 +136,7 @@
     margin: 0;
   }
 
-  .treatment_section .side_img {
+  .services_section .side_img {
     display: none;
   }
 
